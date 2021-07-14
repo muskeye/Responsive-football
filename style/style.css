@@ -237,6 +237,8 @@ footer img{
 }
 /* media query */
 /* mobile responive */
+
+
 @media screen and (max-width: 688px)  {
     body{
         margin: 0;
@@ -252,7 +254,7 @@ footer img{
         height: 138px;
         margin-top: -80px;
         margin-left: -130px;
-        font-size: 28px;
+        font-size: 30px;
     }
     .header-txt .btn{
         position: relative;
@@ -260,7 +262,6 @@ footer img{
         left: -130px;
     }
     header img{
-        width: 100%;
         width: 329px;
         height: 259.17px;
         position: relative;
@@ -268,13 +269,14 @@ footer img{
     }
     /* player responsive */
     .player-section{
-        margin-left: 20px;
-        width: 350px;
+        margin-left: 15px;
+        width: 340px;
     }
     .players{
             display: grid;
             grid-template-columns: repeat(1,1fr);
             
+            width: 340px;
     }
     .player{
         width: 330px;
@@ -282,13 +284,46 @@ footer img{
     }
     /* shedule responsive */
     .shedule-section{
-        display: none;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
     }
-    footer{
-        display: none;
+    .team-section{
+        width: 330px;
+        margin-left: 20px;
     }
-    .contact-section{
-        display: none;
+    .teams img{
+        height: 130px;
     }
+    table{
+        margin-top: 30px;
+        margin-left: 20px;
+    }
+     /* contact respomsive */
+     .contact-section{
+         position: relative;
+         top: 30px;
+         left: -20px;
+         width: 350px;
+     }
+     .contact-section h2{
+         font-size: 26px;
+         margin-left: 55px;
+     }
+     .contact-section .btn{
+         position: relative;
+         left: 25px;
+     }
+     .contact-input{
+         display: grid;
+         grid-template-columns: repeat(1,1fr);
+     }
     
+    .footer-container{
+        position: relative;
+        left: -400px;
+    }
+    footer img{
+        width: 200px;
+        
+    }
 }
