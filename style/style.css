@@ -1,0 +1,27 @@
+
+/* common style */
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #E5E5E5;
+}
+
+/* header style */
+header{
+    background-color: #2D25A0;
+    display: flex;
+}
+.header-txt{
+    width: 50%;
+}
+.header-txt h1{
+   
+    font-size: 64px;
+    line-height: 80px;
+    font-weight: 700;
+}
+.header-img{
+    width: 50%;
+}
+header img{
+    width: ;
+}
