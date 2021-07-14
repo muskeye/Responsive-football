@@ -210,12 +210,85 @@ table, th, td {
 .input-name{
     margin: 0 30px;
 }
-
+/* footer section */
+footer{
+    margin-top: 80px;
+}
+.footer-container{
+    margin-left: 470px;
+}
+footer img{
+    width: 470px;
+}
+.social{
+    margin-top: ;
+    margin-left: 130px;
+}
+.fab{
+    margin: 10px;
+    color: grey;
+    font-size: 24px;
+    background-color: #1a1e25;
+    border-radius: 50%;
+}
+.copyright{
+    line-height: 3em;
+     margin-left: 120px;
+}
 /* media query */
 /* mobile responive */
-@media screen and (max-width: 600px)  {
+@media screen and (max-width: 688px)  {
+    body{
+        margin: 0;
+    }
+    /* header responsive */
     header{
+        width: 100%;
         display: grid;
         grid-template-columns: repeat(1,1fr);
     }
+    .header-txt h1{
+        width: 270px;
+        height: 138px;
+        margin-top: -80px;
+        margin-left: -130px;
+        font-size: 28px;
+    }
+    .header-txt .btn{
+        position: relative;
+        top: 40px;
+        left: -130px;
+    }
+    header img{
+        width: 100%;
+        width: 329px;
+        height: 259.17px;
+        position: relative;
+        left: 25px;
+    }
+    /* player responsive */
+    .player-section{
+        margin-left: 20px;
+        width: 350px;
+    }
+    .players{
+            display: grid;
+            grid-template-columns: repeat(1,1fr);
+            
+    }
+    .player{
+        width: 330px;
+        height: 474px;
+    }
+    /* shedule responsive */
+    .shedule-section{
+        display: none;
+    }
+    footer{
+        display: none;
+    }
+    .contact-section{
+        display: none;
+    }
+    
 }
