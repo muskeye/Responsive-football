@@ -14,6 +14,7 @@ body{
 header{
     background-color: #2D25A0;
     display: flex;
+   
 }
 .header-txt{
     width: 50%;
@@ -51,6 +52,43 @@ header img{
     margin-top: 100px;
     margin-bottom: 86px;
     margin-right: 140px;
+}
+
+/* player section */
+.player-section{
+    width: 1000px;
+    margin-left: 180px;
+    margin-top: 70px;
+    margin-bottom: 100px;
+}
+.players{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap: 30px;
+    grid-row-gap: 27px;
+}
+.player{
+    width: 330px;
+    height: 474px;
+    background-color: #FFFFFF;;
+    
+}
+.player-txt{
+    position: relative;
+    top: -5px;
+    
+    padding: 15px;
+    
+}
+.player-txt p{
+    font-size: 14px;
+    font-weight: 300;
+    color: dimgray;
+}
+.player img{
+    height: 54%;
+    margin-left: 15px;
+    margin-top: 15px;
 }
 
 
