@@ -8,7 +8,11 @@ body{
     text-decoration: none;
     color: #FFFFFF;
     background-color:  #E02C6D;
+    transition: transform 0.3s ease;
 }
+.btn:hover{
+    transform: scale(1.25);
+} 
 
 /* header style */
 header{
@@ -28,9 +32,6 @@ header{
     color:#FFFFFF ;
     width: 485px;
     height: 230px;
-}
-.header-txt{
-    
 }
 .header-txt a{
     font-size: 24px;
@@ -52,6 +53,10 @@ header img{
     margin-top: 100px;
     margin-bottom: 86px;
     margin-right: 140px;
+    transition: transform 0.5s ease;
+}
+header img:hover {
+    transform: scale(1.25);
 }
 
 /* player section */
@@ -93,6 +98,8 @@ header img{
 
 
 /* media query */
+
+/* mobile responive */
 @media screen and (max-width: 600px)  {
     header{
         display: grid;
