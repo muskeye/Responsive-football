@@ -2,12 +2,13 @@
 /* common style */
 body{
     font-family: 'Poppins', sans-serif;
-    background-color: #E5E5E5;
+    background-color: #222831;
+    /* background-color: #E5E5E5; */
 }
 .btn{
     text-decoration: none;
     color: #FFFFFF;
-    background-color:  #E02C6D;
+    background-color:  #ef4746;
     transition: transform 0.3s ease;
 }
 .btn:hover{
@@ -16,7 +17,7 @@ body{
 
 /* header style */
 header{
-    background-color: #2D25A0;
+    background-color: #0f1f42;
     display: flex;
    
 }
@@ -75,15 +76,16 @@ header img:hover {
 .player{
     width: 330px;
     height: 474px;
-    background-color: #FFFFFF;;
-    
+    /* background-color: #FFFFFF; */
+    background-color: #1a1e25;
 }
 .player-txt{
     position: relative;
     top: -5px;
-    
     padding: 15px;
-    
+}
+.player-txt h3{
+    color: #FFFFFF;
 }
 .player-txt p{
     font-size: 14px;
@@ -91,14 +93,125 @@ header img:hover {
     color: dimgray;
 }
 .player img{
-    height: 54%;
+    height: 54%;  
+    transition: transform 0.3s ease; 
+}
+.player-img{
     margin-left: 15px;
     margin-top: 15px;
+    margin-right: 15px;
+    overflow: hidden;
+}
+.player img:hover{
+    transform: scale(1.5);
 }
 
 
-/* media query */
+/* shedule and time section */
+.shedule-section{
+    display: flex;
+    margin-bottom: 100px;
+}
 
+/* team section */
+.team{
+    width: 50%;
+}
+.teams{
+    display: flex;
+    justify-content: center;
+}
+.team-section{
+    border: 0.5px solid gray;
+    width: 80%;
+    margin-left: 110px;
+    background-color: #1a1e25;
+}
+.team-header{
+    background-color: #ef4746;
+    margin-top: -18px;
+    height: 50px;
+}
+.team-header h3{
+    color: white;
+    padding-top: 5px;
+    padding-left: 15px;
+}
+.teams p{
+   
+    font-size: 24px;
+    color: white;
+    margin-left: 40px;
+    padding-top: 70px;
+}
+.league {
+    text-align: center;
+}
+.league h2{
+    color: #ef4746;
+}
+.txt-color{
+    font-size: 106%;
+    color: #ef4746;
+    font-weight: 300;
+}
+
+/* table section */
+
+.point-table{
+    width: 50%;
+    height: 500px;
+}
+table{
+     border:  .5px solid gray;
+     width: 80%;
+     background-color: #1a1e25;
+     color: white;
+     margin-left: 40px;
+}
+table, th, td {
+    border-bottom: .5px solid gray;
+    border-collapse: collapse;
+  }
+  th, td {
+    padding: 15px;
+  }
+.bg-color{
+    background-color: #ef4746;
+}
+
+/* contact section */
+
+.contact{
+    text-align: center;
+}
+.contact h2{
+    font-size: 40px;
+    color: white;
+} 
+.contact-input{
+    display: flex;
+}
+.contact-input input{
+    width: 100%;
+    height: 56px;
+    padding: 13px 18px;
+    border: none;
+    border-bottom: 1px solid black;
+    text-align: center;
+    outline: none;
+    font-size: 24px;
+    background-color: #222831;
+}
+.contact .btn{
+    padding: 10px 24px;
+    line-height: 6em;
+}
+.input-name{
+    margin: 0 30px;
+}
+
+/* media query */
 /* mobile responive */
 @media screen and (max-width: 600px)  {
     header{
