@@ -293,6 +293,11 @@ footer img{
     .teams img{
         height: 130px;
     }
+    .teams p{
+        position: relative;
+        left: -15px;
+        margin-top: 10px;
+    }
     table{
         margin-top: 30px;
         margin-left: 35px;
@@ -317,7 +322,7 @@ footer img{
          grid-template-columns: repeat(1,1fr);
      }
     
-
+     /* footer section */
      footer{
          margin-bottom: 100px;
      }
